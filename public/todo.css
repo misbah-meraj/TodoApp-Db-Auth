@@ -1,0 +1,29 @@
+#list1 .form-control {
+    border-color: transparent;
+  }
+  #list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+  }
+  #list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+  }
+
+  #showList  div {
+    background: #ffffff;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-bottom: 4px;
+   
+  }
+
+  #showList  div button {
+    border:none;
+    border-radius: 4px;
+    padding: 2px 15px;
+    float: right;
+    margin-left: 10px;
+    color: #ffffff;
+    outline: none;
+    
+  }
